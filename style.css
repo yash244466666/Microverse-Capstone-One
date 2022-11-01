@@ -1,3 +1,173 @@
-#main {
-  color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
+
+a {
+  text-decoration: none !important;
+}
+
+/* MOBILE NAV MENU */
+
+.nav-link-hide {
+  display: none !important;
+}
+
+#navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 15vh;
+  border-bottom: 2px solid;
+}
+
+#logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2rem;
+
+  /* background-image: url(./res/logo.png);
+  background-repeat: no-repeat;
+  width: 50vw ; */
+}
+
+#logo img {
+  max-width: 95%;
+  min-width: 60%;
+}
+
+#hamMenu {
+  position: absolute;
+  left: 1rem;
+}
+
+.nav-links-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 100;
+  width: 100vw;
+  height: 70vh;
+  background-color: #0000008a;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hamX {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 10000;
+}
+
+#hamX i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.CC {
+  border: 2px solid #ec4327;
+  background-color: #ec4327;
+  padding: 0.5rem 1rem;
+}
+
+.CC a {
+  color: #fafafa !important;
+}
+
+.links {
+  margin-bottom: 2rem;
+}
+
+.links a {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* MEDIA QUARIES */
+
+@media only screen and (min-width: 768px) {
+  #hamMenu {
+    display: none;
+  }
+
+  .nav-link-hide {
+    display: block !important;
+  }
+
+  .nav-links-container {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #0000;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #hamX {
+    display: none;
+  }
+
+  .links {
+    margin: 0 0 0 0.7rem;
+  }
+
+  .links a {
+    color: #000;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .CC {
+    margin: 0 3rem 0 1rem;
+    padding: 0.8rem 1.5rem;
+    color: #ec4327 !important;
+    background-color: #fff;
+  }
+
+  .CC a {
+    color: #ec4327 !important;
+  }
+
+  .CC:hover {
+    background-color: #ec4327;
+    transition: all 0.2s ease-in-out;
+    color: #fff !important;
+  }
+
+  .CC a:hover {
+    color: #fff !important;
+  }
+
+  #navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 15vh;
+    border-bottom: 2px solid;
+  }
+
+  #logo {
+    position: absolute;
+    left: 1%;
+    transform: translateX(0%);
+    padding: 2rem;
+  }
+
+  #logo img {
+    max-width: 60%;
+  }
+}
+
+/* MOBILE NAV MENU */
