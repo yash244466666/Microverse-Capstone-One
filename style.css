@@ -9,6 +9,10 @@ a {
   text-decoration: none !important;
 }
 
+#main {
+  margin-top: 15vh;
+}
+
 /* MOBILE NAV MENU */
 
 .nav-link-hide {
@@ -16,7 +20,7 @@ a {
 }
 
 #navbar {
-  position: fixed;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,7 +153,7 @@ a {
   }
 
   #navbar {
-    position: fixed;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-end;
