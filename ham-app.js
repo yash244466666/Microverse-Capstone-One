@@ -5,7 +5,7 @@ const navLinks = document.querySelector('.nav-links');
 
 const data = [{
   text: 'About',
-  link: '#',
+  link: './about.html',
 }, {
   text: 'Program',
   link: '#',
@@ -38,9 +38,3 @@ hamMenu.addEventListener('click', (e) => {
   e.preventDefault();
   navLinks.classList.toggle('nav-link-hide');
 });
-
-// hamX.addEventListener('click', (e) =>{
-//   // e.preventDefault()
-//   // navLinks.classList.toggle('nav-link-hide');
-//   console.log('X click')
-// })
