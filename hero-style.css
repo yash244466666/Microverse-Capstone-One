@@ -1,3 +1,76 @@
+#heroSec {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./res/hero-bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.hero-header {
+  padding: 10rem 2rem 1rem 2rem;
+  background-color: #9b9b9b34;
+}
+
 .hero-mn-header {
-  color: rgb(0, 0, 255);
+  font-size: 1.8rem;
+  font-weight: 900;
+  padding: 2.5rem 0 0 0;
+}
+
+.hero-para {
+  padding: 0 2rem 1rem 2rem;
+  font-weight: 600;
+  background-color: #9b9b9b34;
+  margin-bottom: 1rem;
+}
+
+.hero-venu {
+  padding: 1rem 2rem 1rem 2rem;
+  font-weight: 800;
+  background-color: #9b9b9b34;
+}
+
+.venu-time {
+  font-weight: 900;
+}
+
+/* MEDIA QUARIES */
+
+@media only screen and (min-width: 768px) {
+  #heroSec {
+    height: 1024px;
+  }
+
+  .hero-header {
+    padding: 18rem 4rem 1rem 4rem;
+    background-color: #fff0;
+  }
+
+  .hero-mn-header {
+    margin-top: -3rem;
+    font-size: 3.5rem;
+  }
+
+  .hero-para {
+    padding: 0 4rem 1rem 4rem;
+    background-color: #fff0;
+    margin-top: 0;
+    max-width: 80vw;
+    font-size: 1.2rem;
+  }
+
+  .hero-venu {
+    padding: 1rem 4rem 1rem 4rem;
+    font-weight: 800;
+    background-color: #9b9b9b34;
+
+    /* text-align: center; */
+    margin-top: 0;
+  }
+
+  .venu-time {
+    font-weight: 900;
+  }
 }
