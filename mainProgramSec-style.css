@@ -1,0 +1,160 @@
+#programDtls {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./res/main-program-sec-bg.png);
+  padding: 2rem 1rem;
+}
+
+.program-discription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-discription h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.program-discription hr {
+  width: 70%;
+
+  /* color: #ec4327; */
+  border: 3px solid #fff !important;
+}
+
+.program-block {
+  display: flex;
+  background-color: #a598988e;
+  align-items: center;
+
+  /* justify-content: center; */
+  gap: 1rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.program-block h6 {
+  font-size: 1rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.program-block p {
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  /* text-align: right; */
+}
+
+.program-block img {
+  margin: 0 0 auto 0;
+}
+
+.join-cc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.see-program {
+  display: none;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+.join-cc-btn {
+  border: none;
+  background-color: #ff5e00;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-weight: 900;
+}
+
+.join-cc-btn:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  color: #ff5e00;
+}
+
+/* MEDIA QUARIES */
+
+@media only screen and (min-width: 768px) {
+  #programDtls {
+    display: grid;
+    grid-template-areas:
+      "head head head head head"
+      "program program program program program";
+    justify-content: center;
+  }
+
+  .see-program {
+    display: block;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.2rem;
+  }
+
+  .program-discription {
+    grid-area: head;
+  }
+
+  .program-block-container {
+    grid-area: program;
+    display: grid;
+    grid-template-areas:
+      'pb1 pb2 pb3 pb4 pb5'
+      'cc cc cc cc cc';
+    column-gap: 1rem;
+    margin: 2rem 5rem 1rem 5rem;
+  }
+
+  .program-para {
+    text-align: center;
+  }
+
+  .pb1 {
+    grid-area: pb1;
+  }
+
+  .pb2 {
+    grid-area: pb2;
+  }
+
+  .pb3 {
+    grid-area: pb3;
+  }
+
+  .pb4 {
+    grid-area: pb4;
+  }
+
+  .pb5 {
+    grid-area: pb5;
+  }
+
+  .join-cc {
+    grid-area: cc;
+
+    /* width: 50vw; */
+    margin: 1rem 0 0 0;
+  }
+
+  .program-block {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #0000;
+
+    /* justify-content: center; */
+    gap: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .program-block:hover {
+    border: 3px solid #fff;
+  }
+}

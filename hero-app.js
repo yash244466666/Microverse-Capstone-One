@@ -1,9 +1,9 @@
 const heroData = [{
   heroSmHeader: '"Hello! Sharing world"',
-  heroMnheader: 'CREATIVE COMMONS GLOBAL SUMMIT 2015',
-  heroPara: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum dignissimos sequi modi! Dolores error architecto impedit fuga, debitis repellendus molestias quidem esse, reprehenderit magnam rem perspiciatis eaque suscipit a.',
+  heroMnheader: 'GROWTH INTEREST <br> GLOBAL SUMMIT <br> 2022',
+  heroPara: 'We provide some design guidelines for you to create the website, but you must personalize the content,you can build a website for a concert or for a web development course.',
 }, {
-  heroVenuTime: '2015.10.15(THU)~16(FRI)',
+  heroVenuTime: '2022.12.15(THU)~16(FRI)',
   heroVenuPlace: '@National Meseum of Karea, Art Center Nabi and more.',
 
 }];

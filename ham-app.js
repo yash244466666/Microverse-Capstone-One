@@ -19,7 +19,7 @@ const data = [{
   text: 'News',
   link: '#',
 }, {
-  text: 'CC Campaign',
+  text: 'GI Campaign 2022',
   link: '#',
 }];
 
@@ -31,7 +31,7 @@ div.innerHTML = `   <div id='hamX' onclick="hamMenuHide()"> <i class="fa-sharp f
     <div class="links" onclick="hamMenuHide()"><a href="${data[2].link}">${data[2].text}</a></div>
     <div class="links" onclick="hamMenuHide()"><a href="${data[3].link}">${data[3].text}</a></div>
     <div class="links" onclick="hamMenuHide()"><a href="${data[4].link}">${data[4].text}</a></div>
-    <div class="links CC" onclick="hamMenuHide()"><a href="${data[5].link}">${data[5].text}</a></div>
+    <div class="links CC" onclick="hamMenuHide()"><a href=">${data[5].link}">${data[5].text}</a></div>
 `;
 
 hamMenu.addEventListener('click', (e) => {

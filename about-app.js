@@ -1,6 +1,6 @@
 const aboutTxtData = [{
-  aboutMainHeader: 'CREATIVE COMMONS GLOBAL SUMMIT 2015',
-  aboutMainPara: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur pariatur similique recusandae aut sed obcaecati atque vero maiores modi dignissimos omnis nam repudiandae cum culpa sequi corrupti officiis assumenda veniam eos aperiam, voluptas quis nemo ad. Placeat voluptate voluptatibus quidem rerum nesciunt tempore, tenetur illo sunt qui consequuntur quod adipisci quo dicta quam voluptatum cumque repudiandae cum? Facere molestiae sunt voluptates, qui nihil, repellendus nemo possimus consequuntur laboriosam atque soluta ratione quod quisquam alias fuga necessitatibus distinctio quo. Sunt cupiditate nisi mollitia voluptatem vel iure autem distinctio nam quisquam nihil dignissimos, molestias atque, quod velit tenetur. Reiciendis officiis sed cum?',
+  aboutMainHeader: 'GROWTH INTERST <br> GLOBAL SUMMIT <br> 2022',
+  aboutMainPara: 'We need to future-proof this pass the mayo, appeal to the client, sue the vice president deploy, and through the lens of deploy to production, yet rehydrate the team. We need to aspirationalise our offerings increase the pipelines marketing, illustration, so dont over think it. Nobodys fault it could have been managed better cannibalize. That jerk from finance really threw me under the bus bottleneck mice, so to be inspired is to become creative, innovative and energized we want this philosophy to trickle down to all our stakeholders. Encourage & support business growth message the initiative player-coach.',
   aboutMainEmail: 'yash.solo.000@gmail.com',
 }];
 
@@ -10,7 +10,7 @@ aboutMain.innerHTML = `
     <h1 class="about-header">${aboutTxtData[0].aboutMainHeader}</h1>
     <p class="about-para">${aboutTxtData[0].aboutMainPara}</p>
     <p class="about-contact-para">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati deleniti numquam magnam sequi eaque nam.
+    Tbrand terrorists tiger team, for corporate synergy don't over think it.
         <a href="" class="contact-para-email">${aboutTxtData[0].aboutMainEmail}</a>
     </p>
 </div>
