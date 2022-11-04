@@ -39,6 +39,10 @@
 /* MEDIA QUARIES */
 
 @media only screen and (min-width: 768px) {
+  #heroSec {
+    height: 1024px;
+  }
+
   .hero-header {
     padding: 18rem 4rem 1rem 4rem;
     background-color: #fff0;

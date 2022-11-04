@@ -229,12 +229,13 @@ a {
     width: 100%;
   }
 
+  /* FOOTER */
+
   #footer {
-    background-color: #fff;
+    background-color: #3d3a3a;
     margin-top: 3rem;
   }
 
-  /* FOOTER */
   .footer-items {
     display: flex;
     padding: 2rem;
@@ -247,7 +248,7 @@ a {
   }
 
   .footer-text p {
-    color: #000 !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 0.8rem;
     font-weight: 600;
   }
@@ -274,7 +275,7 @@ a {
 /* MOBILE NAV MENU */
 
 #footer {
-  background-color: #fff;
+  background-color: #3d3a3a;
   margin-top: 3rem;
 }
 
@@ -290,7 +291,7 @@ a {
 }
 
 .footer-text p {
-  color: #000 !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 0.8rem;
   font-weight: 600;
 }

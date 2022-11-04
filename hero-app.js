@@ -10,21 +10,23 @@ const heroData = [{
 
 const heroSec = document.getElementById('heroSec');
 heroSec.innerHTML = `
-<div class="hero-header">
-    <h4 class="hero-sm-header">
-        ${heroData[0].heroSmHeader}
-    </h4>
-    <h1 class="hero-mn-header">
-    ${heroData[0].heroMnheader}
-    </h1>
-</div>
-<div class="hero-para">
-    <p class="hero-mn-para">${heroData[0].heroPara}</p>
-</div>
-<div class="hero-venu">
-    <div class="time">
-        <h3 class="venu-time">${heroData[1].heroVenuTime}</h3>
-        <p class="venu-place">${heroData[1].heroVenuPlace}</p>
+<div class="hero-header-cont">
+    <div class="hero-header">
+        <h4 class="hero-sm-header">
+            ${heroData[0].heroSmHeader}
+        </h4>
+        <h1 class="hero-mn-header">
+        ${heroData[0].heroMnheader}
+        </h1>
+    </div>
+    <div class="hero-para">
+        <p class="hero-mn-para">${heroData[0].heroPara}</p>
+    </div>
+    <div class="hero-venu">
+        <div class="time">
+            <h3 class="venu-time">${heroData[1].heroVenuTime}</h3>
+            <p class="venu-place">${heroData[1].heroVenuPlace}</p>
+        </div>
     </div>
 </div>
 `;

@@ -78,6 +78,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .past-summits-txt h3 {
@@ -95,11 +96,13 @@
 
 .past-summit-img-cont {
   display: flex;
-  flex-direction: column;
+  gap: 1rem;
+
+  /* flex-direction: column; */
 }
 
 .past-summit-img {
-  width: 70vw;
+  width: 35vw;
 }
 
 .past-summit-img img {
