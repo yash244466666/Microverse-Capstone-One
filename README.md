@@ -26,7 +26,7 @@ https://yash244466666.github.io/Microverse-Capstone-One/
 - Yash
 - GitHub: [Yash](https://github.com/yash244466666)
 - LinkedIn: [Yash Solo](https://www.linkedin.com/in/yash-solo)
-- Twitter: [Yash Solo](https://twitter.com/yash_solo000)
+
 
 
 ## 🤝 Contributing
